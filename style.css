@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+}
+
+header {
+  background-color: rgb(98, 55, 55);
+  text-align: center;
+  overflow: auto;
+  background-image: url(https://images-na.ssl-images-amazon.com/images/I/91AAbItmgzL._AC_SL1500_.jpg);
+  background-attachment: fixed;
+}
+
+header h1 {
+  color: white;
+  font-size: 50px;
+  display: inline-block;
+  padding-top: 20px;
+}
+
+header img {
+  float: left;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(118, 111, 111);
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  padding: 10px;
+}
+
+.menu-btn:hover {
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+.intro {
+  background-color: aliceblue;
+  padding: 20px;
+}
+
+.why-us {
+  background-color: rgb(190, 231, 208);
+  padding: 30px;
+}
+
+.why-us ul li {
+  font-weight: bold;
+  word-spacing: 2px;
+}
+
+.program-details {
+  background-color: #fdbb2d;
+  padding: 15px;
+  height: 100vth;
+  padding-bottom: 30px;
+}
+
+.program-details h4{
+    text-align: center;
+}
+
+.program-details h2{
+    font-size: 40px;
+}
+
+.training-img {
+  height: 500px;
+  width: 800px;
+}
+
+.carousel-cell {
+  width: 66%;
+  height: 100vth;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.founder-details{
+    text-align: center;
+    background-color: aliceblue;
+  padding: 20px;
+}
+
+.founder-details img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.founder-details p{
+    font-weight:bold ;
+}
+
+
+.registration-form{
+    background-color: rgb(230, 229, 229);
+    padding: 20px;
+
+}
+
+label{
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.btn{
+    text-align: center;
+}
+
+.btn button{
+    margin: 20px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(13, 226, 226);
+    border-radius: 20px;
+}
